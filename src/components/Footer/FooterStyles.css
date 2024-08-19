@@ -2,10 +2,12 @@
     background-color: black;
     padding: 4rem 0;
     font-family: "Public Sans",sans-serif;
+    color:white;
 }
 .footer-flex-1{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 2rem;
 }
 .footer-flex-11 ul li{
     display: inline;
@@ -20,4 +22,36 @@
 .footer a{
     text-decoration: none;
     color: white;
+}
+.footer-flex-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.contact-info{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.footer-phone{
+    display: flex;
+    align-items: center;
+}
+.footer-email{
+    display: flex;
+    align-items: center;
+}
+.phone-icon,.email-icon{
+    margin-right: 1rem;
+}
+.copyrights{
+    margin-right: 0.8rem;
+}
+hr{
+    width: 80%;
+}
+.phone-header,.email-header{
+    color:#d7d7d7;
+    font-size: 0.9rem;
 }
