@@ -12,8 +12,7 @@ const Services = () => {
             <Card icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="Property Surveys" desc="Detailed property boundary surveys and subdivision planning."></Card>
             <Card icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="Construction Surveys" desc="Precise site planning and monitoring for construction projects."></Card>
 
-        </div>
-        <div className='services-cards-container'>
+    
             <Card icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="Topographic Surveys" desc="Mapping and analysis of land contours and features."></Card>
             <Card icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="Utility Surveys" desc="Identification and location of underground utilities."></Card>
             <a href="#contact" className="services-cta-link">

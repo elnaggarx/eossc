@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
     height: 70vh;
+    padding-bottom: 20rem;
 }
 .contact-us h1{
     font-family: cooper-medium;
@@ -16,7 +17,7 @@
     width: 60%;
     justify-content: space-around;
     row-gap: 1rem;
-    grid-template-areas: "name email" "phone subject" "message message";
+    grid-template-areas: "name email" "phone subject" "message message" "button button";
 
 
 }
@@ -56,4 +57,47 @@
     border-radius: 12px;
     border:solid 1px #979797;
 
+}
+.send-button{
+    grid-area:button;
+    background-color: #1B65A5;
+    font-size: 1.1rem;
+    color: white;
+    font-family: "Public Sans" , sans-serif;
+    border-radius: 7px;
+    padding: 1rem 0;
+    width: 50%;
+    justify-self: center;
+    border: none;
+}
+.send-button:hover{
+    background-color: #103d64;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+}
+@media (max-width:768px){
+    .contact-us h1{
+        font-size: 2rem;
+        
+    }
+    .contact-us{
+        padding-bottom: 15rem;
+        height: 40vh;
+    }
+    .fullname,.email-address,.phone,.subject,.message{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .send-button{
+        grid-area:button;
+        background-color: #1B65A5;
+        font-size: 1rem;
+        color: white;
+        font-family: "Public Sans" , sans-serif;
+        border-radius: 7px;
+        padding: 1rem 0;
+        width: 70%;
+        justify-self: center;
+        border: none;
+    }
 }

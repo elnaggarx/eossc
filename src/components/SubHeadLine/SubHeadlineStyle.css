@@ -77,6 +77,9 @@
         overflow: hidden;
         text-align: center;
     }
+    .sub-headline h1{
+        max-width: 95vw;
+    }
     .infinite-text-left,.infinite-text-right{
         font-size: 1.5rem;
     }

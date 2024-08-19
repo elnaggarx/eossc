@@ -10,6 +10,7 @@ const ContactUs = () => {
             <input type="text" className='phone' placeholder='Phone Number'/>
             <input type="text" className='subject' placeholder='Subject' />
             <input type="text" className='message' placeholder='Write your message here'/>
+            <button className='send-button'>Send Message</button>
         </form>
     </div>
   )
