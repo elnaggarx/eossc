@@ -60,12 +60,12 @@ nav{
         display: none;
         
     }
+    nav {
+        width: 85vw;
+    }
     .menu-icon-container{
         display: block;
 
-    }
-    .header{
-        position: fixed;
     }
     .menu{
         display: block;
@@ -76,6 +76,9 @@ nav{
         background-color: white;
         z-index: 100;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
     .menu-list{
@@ -83,7 +86,9 @@ nav{
         list-style: none;
         flex-direction: column;
         justify-content: space-around;
-        height: 100%;
+        align-items: center;
+        height: 60%;
+        
     }
     .menu-links{
         text-decoration: none;
@@ -98,5 +103,9 @@ nav{
     }
     .cancel-icon{
         color: #1B65A5;
+    }
+    .menu-item a{
+        font-size:  1.4rem;
+        text-align: center;
     }
 }
