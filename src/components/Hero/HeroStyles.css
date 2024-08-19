@@ -1,0 +1,135 @@
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.hero-inner-container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: fit-content;
+    width: fit-content;
+}
+.hero-image{
+    width: 95vw;
+    height: 90vh;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 35px;
+    transform: scale(-1,1);
+
+
+}
+.hero-title{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    
+}
+.title-1{
+
+    background-color: white;
+    height: 4rem;
+    width:  28rem;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 25px;
+    margin-bottom: -0.1rem;
+}
+
+.title-2{
+    width: 43rem;
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 25px;
+    
+}
+.title-2 h2{
+    font-size: 2.4rem;
+    color: #969696;
+    font-family: cooper-semi;
+}
+.hero-title h1{
+    font-size: 3rem;
+    font-family: cooper-semi;
+    color: #1B65A5;
+}
+.hero-sub{
+    position: absolute;
+    right: 5%;
+    top:50%;
+    transform: translate(0,-50%);
+    color: rgba(215,215,215,0.7);
+    font-family: cooper-light;
+    font-size: 1.8rem;
+    line-height: 0.8rem;
+    
+}
+.selected{
+    color:rgba(255,255,255,1);
+}
+
+.unselected span{
+    visibility: hidden;
+}
+.selected span{
+    visibility: visible;
+    font-family: cooper-bold;
+}
+@media (max-width:768px){
+
+    .title-1{
+
+        background-color: white;
+        height: 4rem;
+        width:  15rem;
+        display: flex;
+        align-items: center;
+        border-top-right-radius: 25px;
+        margin-bottom: -0.1rem;
+    }
+    .title-2{
+        width: 20rem;
+        background-color: white;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        border-top-right-radius: 25px;
+        
+    }
+    .title-2 h2{
+        font-size: 1.1rem;
+        color: #969696;
+        font-family: cooper-semi;
+    }
+    .hero-title h1{
+        font-size: 1.5rem;
+        font-family: cooper-semi;
+        color: #1B65A5;
+    }
+    .hero-image{
+        width: 95vw;
+        height: 90vh;
+        object-fit: cover;
+        object-position: bottom right;
+        border-radius: 35px;
+        transform: scale(-1,1);
+    
+    
+    }
+    .hero-sub{
+        position: absolute;
+        left: 5%;
+        top:50%;
+        transform: translate(0,-50%);
+        color: rgba(215,215,215,0.7);
+        font-family: cooper-light;
+        font-size: 1rem;
+        line-height: 0.8rem;
+        
+    }
+
+}

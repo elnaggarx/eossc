@@ -1,0 +1,90 @@
+.sub-headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cooper-semi;
+    font-size: 1.3rem;
+    padding: 2.5rem 0;
+    overflow: hidden;
+}
+
+.move-right{
+    color: #1B65A5;
+    
+    margin-top: -1rem;
+}
+.infinite{
+    overflow: hidden;
+    display: flex;
+    
+}
+.infinite-text-left{
+    font-size: 3rem;
+    font-family: cooper-medium;
+    white-space: nowrap;
+    display: inline-block;
+    color: #969696;
+    -webkit-animation: scrolling-left1 60s linear infinite;
+    animation: scrolling-left1 60s linear infinite;
+    
+}
+.infinite-text-right{
+    font-size: 3rem;
+    font-family: cooper-medium;
+    white-space: nowrap;
+    display: inline-block;
+    color: #969696;
+    -webkit-animation: scrolling-right1 60s linear infinite;
+    animation: scrolling-right1 60s linear infinite;
+}
+.infinite-text-left span,.infinite-text-right span{
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0 0.3rem;
+
+}
+.triangle{
+    
+    font-size: 4rem !important;
+    padding: 0 !important;
+    height: 3rem !important;
+    
+}
+@keyframes scrolling-left1 {
+    from {transform: translateX(0%);
+        -webkit-transform: translateX(0%);}
+     to {transform: translateX(-100%);
+          -webkit-transform: translateX(-100%);}
+          
+}
+@keyframes scrolling-right1 {
+    from {transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);}
+     to {transform: translateX(0%);
+          -webkit-transform: translateX(0%);}
+          
+}
+@media (max-width:768px){
+    .sub-headline{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: cooper-semi;
+        font-size: 0.8rem;
+        padding: 2.5rem 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    .infinite-text-left,.infinite-text-right{
+        font-size: 1.5rem;
+    }
+    .triangle{
+    
+        font-size: 3rem !important;
+        padding: 0 !important;
+        height: 2rem !important;
+        
+    }
+}

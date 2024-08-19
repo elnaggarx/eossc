@@ -1,0 +1,35 @@
+@font-face {
+    font-family: cooper-medium;
+    src: url(assets/font/CooperHewitt-Medium.otf);
+}
+@font-face {
+    font-family: cooper-bold;
+    src: url(assets/font/CooperHewitt-Bold.otf);
+}
+@font-face {
+    font-family: cooper-book;
+    src: url(assets/font/CooperHewitt-Book.otf);
+}
+@font-face {
+    font-family: cooper-heavy;
+    src: url(assets/font/CooperHewitt-Heavy.otf);
+}
+@font-face {
+    font-family: cooper-light;
+    src: url(assets/font/CooperHewitt-Light.otf);
+}
+@font-face {
+    font-family: cooper-semi;
+    src: url(assets/font/CooperHewitt-Semibold.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    
+}
+.subheadline-wrapper{
+    padding:6rem 0;
+}

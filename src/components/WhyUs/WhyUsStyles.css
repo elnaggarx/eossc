@@ -1,0 +1,37 @@
+.why-us{
+    display: flex;
+    padding: 5rem 0;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.why-us-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    margin:0 2rem;
+}
+.why-us-col p{
+    text-align: center;
+    font-family: "Public Sans" , sans-serif;
+    margin-top: -1rem;
+    
+}
+.why-icon{
+    font-size: 4rem !important;
+}
+.why-us-col h4{
+    font-family: "Public Sans" , sans-serif;
+    text-align: center;
+    font-weight: 1000;
+}
+@media (max-width:768px){
+    .why-us{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .why-us-col{
+        width: 70%;
+    }
+}
