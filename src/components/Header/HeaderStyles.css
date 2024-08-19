@@ -49,8 +49,54 @@ nav{
     color:#1B65A5;
     transition: all ease-in-out 200ms;
 }
+.menu-icon-container{
+    display: none;
+}
+.menu{
+    display: none;
+}
 @media (max-width:768px){
-    nav{
-        display:none;
+    nav ul{
+        display: none;
+        
+    }
+    .menu-icon-container{
+        display: block;
+
+    }
+    .header{
+        position: fixed;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: white;
+        z-index: 100;
+        width: 100%;
+
+    }
+    .menu-list{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+    .menu-links{
+        text-decoration: none;
+        color:#1B65A5;
+        font-family: cooper-semi;
+        font-size: 3rem;
+    }
+    .cancel-icon-container{
+        position: absolute;
+        top:10%;
+        right:10%;
+    }
+    .cancel-icon{
+        color: #1B65A5;
     }
 }

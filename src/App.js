@@ -6,11 +6,16 @@ import Services from "./components/Services/Services";
 import InfiniteText from "./components/SubHeadLine/InfiniteText";
 import SubHeadline from "./components/SubHeadLine/SubHeadline";
 import WhyUs from "./components/WhyUs/WhyUs";
+import { useState } from "react";
 function App() {
+  const [menuClicked,setMenuClicked] = useState(false);
+  const handleMenuClicked= ()=>{
+      setMenuClicked(!menuClicked);
+  }
   return (
     < div className="App">
-        <Header></Header>
-        <main>
+        <Header menuClicked={menuClicked} handleMenuClicked={handleMenuClicked}></Header>
+        {!menuClicked && <><main>
         <Hero></Hero>
         <div className="subheadline-wrapper">
         <InfiniteText direction="left"></InfiniteText>
@@ -26,7 +31,7 @@ function App() {
         </main>
         <footer>
           <Footer></Footer>
-        </footer>
+        </footer> </>}
     </div>
   );
 }
