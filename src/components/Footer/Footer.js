@@ -8,7 +8,7 @@ import EmailIcon from '@mui/icons-material/Email';
 const Footer = (props) => {
   return (
     <div className='footer'>
-        <div className='footer-flex-1'>
+        <div className={props.english ? 'footer-flex-1':'footer-flex-1 footer-reversed'}>
             <div className='footer-flex-11'>
                 <ul>
                     {props.english ? 

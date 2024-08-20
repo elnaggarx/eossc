@@ -57,6 +57,9 @@ hr{
     color:#d7d7d7;
     font-size: 0.9rem;
 }
+.footer-reversed{
+    flex-direction: row-reverse;
+}
 @media (max-width:768px){
     .footer-flex-1{
         flex-direction: column;

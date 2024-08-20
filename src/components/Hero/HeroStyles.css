@@ -21,11 +21,26 @@
 
 
 }
+.hero-image-inverted{
+    width: 95vw;
+    height: 90lvh;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 35px;
+}
 .hero-title{
     position: absolute;
     bottom: 0%;
     left: 0%;
     
+}
+.hero-title-inverted{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .title-1{
 
@@ -35,6 +50,16 @@
     display: flex;
     align-items: center;
     border-top-right-radius: 25px;
+    margin-bottom: -0.1rem;
+}
+.title-1-inverted{
+    background-color: white;
+    height: 4rem;
+    width:  20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top-left-radius: 25px;
     margin-bottom: -0.1rem;
 }
 
@@ -47,13 +72,33 @@
     border-top-right-radius: 25px;
     
 }
+.title-2-inverted{
+    width: 30rem;
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 25px;
+    justify-content: flex-end;
+}
 
 .title-2 h2{
     font-size: 2.4rem;
     color: #969696;
     font-family: cooper-semi;
 }
+.title-2-inverted h2{
+    font-size: 2.4rem;
+    color: #969696;
+    font-family: cooper-semi;
+}
+
 .hero-title h1{
+    font-size: 3rem;
+    font-family: cooper-semi;
+    color: #1B65A5;
+}
+.title-1-inverted h1{
     font-size: 3rem;
     font-family: cooper-semi;
     color: #1B65A5;
@@ -68,6 +113,16 @@
     font-size: 1.8rem;
     line-height: 0.8rem;
     
+}
+.hero-sub-inverted{
+    position: absolute;
+    left: 7%;
+    top:55%;
+    transform: translate(0,-50%);
+    color: rgba(215,215,215,0.7);
+    font-family: cooper-light;
+    font-size: 1.8rem;
+    line-height: 0.8rem;
 }
 .selected{
     color:rgba(255,255,255,1);
@@ -128,15 +183,27 @@
         border-top-right-radius: 25px;
         
     }
+    .title-1-inverted{
+        width: 10rem;
+    }
+    .title-2-inverted{
+        width: 16rem;
+    }
     .title-2 h2{
         font-size: 1.1rem;
         color: #969696;
         font-family: cooper-semi;
     }
+    .title-2-inverted h2{
+        font-size: 1.4rem;
+    }
     .hero-title h1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-family: cooper-semi;
         color: #1B65A5;
+    }
+    .hero-title-inverted h1{
+        font-size: 1.7rem;
     }
     .hero-image{
         width: 95vw;
@@ -147,6 +214,12 @@
         transform: scale(-1,1);
     
     
+    }
+    .hero-image-inverted{
+        width: 95vw;
+        height: 90vh;
+        object-fit: cover;
+        object-position: bottom right;
     }
     .hero-sub{
         position: absolute;

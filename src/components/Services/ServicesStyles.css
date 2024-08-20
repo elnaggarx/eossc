@@ -32,8 +32,20 @@
     font-family: "Public Sans", sans-serif;
     
 }
+.card-inverted{
+    align-items: flex-end;
+    color:#141414;
+    font-family: "Public Sans", sans-serif;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-top:1rem;
+    padding-right: 1rem;
+}
 .engineering-icon{
     font-size: 3.5rem !important;
+    padding-right: 1rem;
 }
 
 .card-desc{
@@ -54,6 +66,24 @@
     border: solid 2px transparent;
     
 }
+.services-cta-reversed{
+    background-color: white;
+    border-radius: 15px;
+    font-family: "Public Sans" , sans-serif;
+    height: fit-content;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #141414;
+    border: solid 2px transparent;
+}
+.services-cta-reversed:hover{
+    background-color: transparent;
+    border:solid 2px white;
+    transition: all ease-in-out 200ms;
+}
+
 .services-cta:hover{
     background-color: transparent;
     border:solid 2px white;
@@ -68,6 +98,7 @@
 .services-cta h4{
     font-weight: 1000;
 }
+
 @media (max-width:768px){
     .services{
         height: auto;
