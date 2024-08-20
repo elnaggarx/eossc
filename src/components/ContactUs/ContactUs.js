@@ -1,9 +1,12 @@
 import React from 'react'
 import "./ContactUsStyles.css"
-const ContactUs = () => {
+const ContactUs = (props) => {
   return (
+     
     <div className='contact-us'>
-        <h1>Make An Appointment</h1>
+    {props.english ?
+        <>
+        <h1>Contact Us</h1>
         <form action="" className='form-container'>
             <input type="text" className='fullname' placeholder='Fullname'/>
             <input type="text" className='email-address' placeholder='Email Address'/>
@@ -12,7 +15,23 @@ const ContactUs = () => {
             <input type="text" className='message' placeholder='Write your message here'/>
             <button className='send-button'>Send Message</button>
         </form>
+        </>
+    :
+    <>
+    <h1>تواصل معنا</h1>
+    <form action="" className='form-container'>
+        <input type="text" className='fullname' placeholder='الاسم'/>
+        <input type="text" className='email-address' placeholder='البريد الالكتروني'/>
+        <input type="text" className='phone' placeholder='رقم '/>
+        <input type="text" className='subject' placeholder='الموضوع' />
+        <input type="text" className='message' placeholder='اكتب رسالتك هنا'/>
+        <button className='send-button'>ارسل رسالتك</button>
+    </form>
+    </>
+    
+    }
     </div>
+
   )
 }
 
