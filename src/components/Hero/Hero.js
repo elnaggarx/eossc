@@ -22,7 +22,7 @@ const Hero = (props) => {
     }
   }
   return (
-    <div className='hero'>
+    <div className='hero' id="home">
         <div className='hero-inner-container'>
             <img src={hero} alt="hero" className='hero-image'/>
             {props.english?
@@ -34,7 +34,7 @@ const Hero = (props) => {
             <div className='hero-sub'>
                 <h3 className={selector===1?"selected":"unselected"}>We Survey</h3>
                 <h3 className={selector===2?"selected":"unselected"}>We Analyze</h3>
-                <h3 className={selector===3?"selected":"unselected"}>We Guarantee Safety</h3>
+                <h3 className={selector===3?"selected":"unselected"}>We Excel</h3>
                 <h3 className={selector===4?"selected":"unselected"}>We Survey</h3>
                 <h3 className={selector===5?"selected":"unselected"}>We Analyze</h3>
                 <div className='hero-cta'>
@@ -52,7 +52,7 @@ const Hero = (props) => {
             <div className='hero-sub hero-sub-invert'>
                 <h3 className={selector===1?"selected":"unselected"}>نحن نستطلع</h3>
                 <h3 className={selector===2?"selected":"unselected"}>نحن نحلل</h3>
-                <h3 className={selector===3?"selected":"unselected"}>نحن نضمن السلامة</h3>
+                <h3 className={selector===3?"selected":"unselected"}>نحن نتميز</h3>
                 <h3 className={selector===4?"selected":"unselected"}>نحن نستطلع</h3>
                 <h3 className={selector===5?"selected":"unselected"}>نحن نحلل</h3>
                 <div className='hero-cta'>

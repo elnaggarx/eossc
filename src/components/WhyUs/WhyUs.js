@@ -8,7 +8,7 @@ import SummarizeIcon from '@mui/icons-material/Summarize';
 
 const WhyUs = (props) => {
   return (
-    <div className='why-us'>
+    <div className='why-us' id="whyus">
         {props.english ? 
         <>
         <WhyUsCol  icon={<PsychologyIcon className='why-icon'></PsychologyIcon>} title="Expert Team" desc="Certified and experienced surveyors dedicated to quality and precision"></WhyUsCol>

@@ -37,10 +37,12 @@
 .footer-phone{
     display: flex;
     align-items: center;
+    user-select: text;
 }
 .footer-email{
     display: flex;
     align-items: center;
+    user-select: text;
 }
 .phone-icon,.email-icon{
     margin-right: 1rem;

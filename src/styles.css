@@ -31,5 +31,6 @@ body{
     
 }
 .subheadline-wrapper{
-    padding:6rem 0;
+    padding-top:2rem;
+    padding-bottom: 4rem;
 }

@@ -3,7 +3,7 @@ import "./ContactUsStyles.css"
 const ContactUs = (props) => {
   return (
      
-    <div className='contact-us'>
+    <div className='contact-us' id="contact">
     {props.english ?
         <>
         <h1>Contact Us</h1>

@@ -5,7 +5,7 @@
     align-items: center;
     font-family: cooper-semi;
     font-size: 1.3rem;
-    padding: 2.5rem 0;
+    padding: 1.7rem 0;
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@
     
 }
 .infinite-text-left{
-    font-size: 3rem;
+    font-size: 1.6rem;
     font-family: cooper-medium;
     white-space: nowrap;
     display: inline-block;
@@ -30,7 +30,7 @@
     
 }
 .infinite-text-right{
-    font-size: 3rem;
+    font-size: 1.6rem;
     font-family: cooper-medium;
     white-space: nowrap;
     display: inline-block;

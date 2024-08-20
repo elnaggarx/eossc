@@ -5,7 +5,7 @@ import EngineeringIcon from '@mui/icons-material/Engineering';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 const Services = (props) => {
   return (
-    <div className='services'>
+    <div className='services' id="services">
         {props.english ? <h1 className='services-title'>Services</h1> : <h1 className="services-title">خدماتنا</h1> }
         <div className='services-cards-container'>
             {props.english ? <>
