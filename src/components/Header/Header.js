@@ -47,7 +47,7 @@ const Header = (props) => {
                 <motion.li className='menu-item' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:0.4}}><a className='menu-links' href="#whyus" onClick={()=>props.handleMenuClicked()}>Why Us</a></motion.li>
                 <motion.li className='menu-item' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:0.6}}><a className='menu-links' href="#services" onClick={()=>props.handleMenuClicked()}>Services</a></motion.li>
                 <motion.li className='menu-item' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:0.8}}><a className='menu-links' href="#contact" onClick={()=>props.handleMenuClicked()}>Contact Us</a></motion.li>
-                <motion.li className='menu-item menu-language' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:1}} onClick={()=>props.handleSetEnglish()}>العربية</motion.li>
+                <motion.li className='menu-item menu-language' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:1}} onClick={()=>{props.handleSetEnglish();props.handleMenuClicked()}}>العربية</motion.li>
 
                 </>
                 :
@@ -55,7 +55,7 @@ const Header = (props) => {
                 <motion.li className='menu-item' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:0.4}}><a className='menu-links' href="#whyus" onClick={()=>props.handleMenuClicked()}>لماذا نحن</a></motion.li>
                 <motion.li className='menu-item' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:0.6}}><a className='menu-links' href="#services" onClick={()=>props.handleMenuClicked()}>خدماتنا</a></motion.li>
                 <motion.li className='menu-item' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:0.8}}><a className='menu-links' href="#contact" onClick={()=>props.handleMenuClicked()}>تواصل معنا</a></motion.li>
-                <motion.li className='menu-item menu-language' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:1}} onClick={()=>props.handleSetEnglish()}>English</motion.li>
+                <motion.li className='menu-item menu-language' initial={{translateX:-50,opacity:0}} animate={{translateX:0,opacity:1}} transition={{duration:0.3,delay:1}} onClick={()=>{props.handleSetEnglish();props.handleMenuClicked()}}>English</motion.li>
   
                 </>
                 }
