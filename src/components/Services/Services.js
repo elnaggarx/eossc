@@ -1,7 +1,6 @@
 import Card from "./Card.js"
 import React from 'react'
 import "./ServicesStyles.css"
-import EngineeringIcon from '@mui/icons-material/Engineering';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import LandscapeIcon from '@mui/icons-material/Landscape';
 import CorporateFareIcon from '@mui/icons-material/CorporateFare';
@@ -29,13 +28,13 @@ const Services = (props) => {
             </>
             :
             <>
-            <Card reversed={true} icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="مسوحات الاراضي" desc="تقييمات شاملة للأراضي لأغراض التطوير والقانونية"></Card>
-            <Card reversed={true} icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="مسوحات الممتلكات" desc="مسوحات دقيقة لحدود العقارات وتخطيط التقسيم"></Card>
-            <Card reversed={true} icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="مسوحات البناء" desc="تخطيط ومراقبة دقيقة لمواقع المشاريع الإنشائية"></Card>
+            <Card reversed={true} icon={<ImageIcon className='engineering-icon'></ImageIcon>} title="مسوحات الاراضي" desc="تقييمات شاملة للأراضي لأغراض التطوير والقانونية"></Card>
+            <Card reversed={true} icon={<CorporateFareIcon className='engineering-icon'></CorporateFareIcon>} title="مسوحات الممتلكات" desc="مسوحات دقيقة لحدود العقارات وتخطيط التقسيم"></Card>
+            <Card reversed={true} icon={<FoundationIcon className='engineering-icon'></FoundationIcon>} title="مسوحات البناء" desc="تخطيط ومراقبة دقيقة لمواقع المشاريع الإنشائية"></Card>
 
     
-            <Card reversed={true} icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="المسوحات الطبوغرافية" desc="رسم وتحليل تضاريس وميزات الأرض"></Card>
-            <Card reversed={true} icon={<EngineeringIcon className='engineering-icon'></EngineeringIcon>} title="مسوحات المرافق" desc="تحديد وتحديد مواقع المرافق تحت الأرض"></Card>
+            <Card reversed={true} icon={<LandscapeIcon className='engineering-icon'></LandscapeIcon>} title="المسوحات الطبوغرافية" desc="رسم وتحليل تضاريس وميزات الأرض"></Card>
+            <Card reversed={true} icon={<AddHomeWorkIcon className='engineering-icon'></AddHomeWorkIcon>} title="مسوحات المرافق" desc="تحديد وتحديد مواقع المرافق تحت الأرض"></Card>
             <a href="#contact" className="services-cta-link">
             <div className="services-cta services-cta-reversed">
                 <h4>احجز مقابلتك الآن</h4> <ChevronRightIcon></ChevronRightIcon>
