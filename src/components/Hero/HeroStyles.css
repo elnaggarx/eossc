@@ -228,9 +228,19 @@
         transform: translate(0,-50%);
         color: rgba(215,215,215,0.7);
         font-family: cooper-light;
-        font-size: 1rem;
+        font-size: 1.3rem;
         line-height: 0.8rem;
         
+    }
+    .hero-sub-inverted{
+        position: absolute;
+        left:60%;
+        top:50%;
+        transform: translate(0,-50%);
+        color: rgba(215,215,215,0.7);
+        font-family: cooper-light;
+        font-size: 1.3rem;
+        line-height: 0.8rem;
     }
     .down-arrow-container{
         display: inline;
