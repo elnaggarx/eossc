@@ -51,6 +51,10 @@
     align-items: center;
     border-top-right-radius: 25px;
     margin-bottom: -0.1rem;
+    position: relative;
+}
+.title-1 h1{
+    z-index: 100;
 }
 .title-1-inverted{
     background-color: white;
@@ -61,6 +65,55 @@
     justify-content: flex-end;
     border-top-left-radius: 25px;
     margin-bottom: -0.1rem;
+    position: relative;
+}
+.title-1::after{
+    content:" ";
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top:-50px;
+    background-color: transparent;
+    z-index: 50;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 25px 0 0 #fff;
+}
+.title-1::before{
+    content:" ";
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top:12px;
+    right: -25px;
+    border-bottom-left-radius: 25px;
+    background-color: transparent;
+    z-index: 50;
+    
+    box-shadow: 0 25px 0 0 white;
+}
+.title-1-inverted::after{
+    content:" ";
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top:-50px;
+    background-color: transparent;
+    z-index: 50;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 25px 0 0 #fff;
+}
+.title-1-inverted::before{
+    content:" ";
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top:12px;
+    left: -25px;
+    border-bottom-right-radius: 25px;
+    background-color: transparent;
+    z-index: 50;
+    
+    box-shadow: 0 25px 0 0 white;
 }
 
 .title-2{
@@ -70,7 +123,33 @@
     display: flex;
     align-items: center;
     border-top-right-radius: 25px;
+    position: relative;
     
+}
+.title-2::after{
+    content:" ";
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    bottom:4px;
+    right: -25px;
+    border-bottom-left-radius: 25px;
+    background-color: transparent;
+    z-index: 50;
+    
+    box-shadow: 0 25px 0 0 white;
+}
+.title-2-inverted::after{
+    content:" ";
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    bottom:4px;
+    left: -25px;
+    border-bottom-right-radius: 25px;
+    background-color: transparent;
+    z-index: 50;
+    box-shadow: 0 25px 0 0 white;
 }
 .title-2-inverted{
     width: 30rem;
@@ -80,6 +159,7 @@
     align-items: center;
     border-top-left-radius: 25px;
     justify-content: flex-end;
+    position: relative;
 }
 
 .title-2 h2{
@@ -173,6 +253,7 @@
         align-items: center;
         border-top-right-radius: 25px;
         margin-bottom: -0.1rem;
+        position: relative;
     }
     .title-2{
         width: 20rem;
@@ -233,6 +314,7 @@
         
     }
     .hero-sub-inverted{
+        text-align: right;
         position: absolute;
         left:60%;
         top:50%;

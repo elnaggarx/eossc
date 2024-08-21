@@ -40,7 +40,7 @@ const Header = (props) => {
 
     </header>
     <AnimatePresence> {props.menuClicked && 
-        <motion.div initial={{y:"100%"}} animate={{y:0}} transition={{type:"tween"}} className='menu'>
+        <motion.div initial={{y:"100%"}} animate={{y:0}} transition={{type:"tween"}} exit={{opacity:0}} className='menu'>
             <ul className='menu-list'>
                 {props.english ?
                 <>

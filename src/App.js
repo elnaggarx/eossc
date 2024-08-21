@@ -2,6 +2,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
 import InfiniteText from "./components/SubHeadLine/InfiniteText";
 import SubHeadline from "./components/SubHeadLine/SubHeadline";
@@ -29,6 +30,7 @@ function App() {
         <SubHeadline english={english}></SubHeadline>
         <InfiniteText english={english} direction="left"></InfiniteText>
         <InfiniteText english={english} direction="right"></InfiniteText>
+        <Intro english={english}></Intro>
         </div>
         <Services english={english}></Services>
         <WhyUs english={english}></WhyUs>
