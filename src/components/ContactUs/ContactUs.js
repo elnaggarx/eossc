@@ -12,8 +12,8 @@ const ContactUs = (props) => {
             <input type="text" className='email-address' placeholder='Email Address'/>
             <input type="text" className='phone' placeholder='Phone Number'/>
             <input type="text" className='subject' placeholder='Subject' />
-            <input type="text" className='message' placeholder='Write your message here'/>
-            <button className='send-button'>Send Message</button>
+            <textarea type="text" className='message' placeholder='Write your message here'/>
+            <button type='submit' className='send-button'>Send Message</button>
         </form>
         </>
     :
@@ -24,7 +24,7 @@ const ContactUs = (props) => {
         <input type="text" className='email-address' placeholder='البريد الالكتروني'/>
         <input type="text" className='phone' placeholder='رقم '/>
         <input type="text" className='subject' placeholder='الموضوع' />
-        <input type="text" className='message' placeholder='اكتب رسالتك هنا'/>
+        <textarea type="text" className='message' placeholder='اكتب رسالتك هنا'/>
         <button className='send-button'>ارسل رسالتك</button>
     </form>
     </>

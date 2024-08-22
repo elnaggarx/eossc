@@ -13,20 +13,17 @@
 .form-container{
     display: grid;
     grid-template-columns: 48% 48%;
-    grid-template-rows: 25% 25% 50%;
+    grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
     width: 60%;
     justify-content: space-around;
     row-gap: 1rem;
-    grid-template-areas: "name email" "phone subject" "message message" "button button";
+    grid-template-areas: "name name" "email email" "phone subject" "message message" "button button";
 
 
 }
 .fullname{
     grid-area: name;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    padding-left:0.3rem;
-    border-radius: 12px;
+
 }
 .email-address{
     grid-area: email;
@@ -47,13 +44,11 @@
 }
 .message{
     grid-area: message;
-    overflow-x: hidden;
-
+    font-family:'Public Sans',sans-serif ;
+    resize: none;
 }
 .fullname,.email-address,.phone,.subject,.message{
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    padding-left:0.7rem;
+    padding: 15px;
     border-radius: 12px;
     border:solid 1px #979797;
 
@@ -69,6 +64,7 @@
     width: 50%;
     justify-self: center;
     border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 .send-button:hover{
     background-color: #103d64;

@@ -1,7 +1,7 @@
 import React from 'react'
 import hero from "../../assets/pxfuel.jpg"
 import "./HeroStyles.css"
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { useEffect,useState } from 'react'
 const Hero = (props) => {
   const [selector,setSelector] = useState(1);
@@ -32,15 +32,15 @@ const Hero = (props) => {
                 <div className='title-2'><h2>For Surveying Services & Consultation</h2></div>
             </div>
             <div className='hero-sub'>
-                <h3 className={selector===1?"selected":"unselected"}>We Survey</h3>
-                <h3 className={selector===2?"selected":"unselected"}>We Analyze</h3>
-                <h3 className={selector===3?"selected":"unselected"}>We Excel</h3>
-                <h3 className={selector===4?"selected":"unselected"}>We Survey</h3>
-                <h3 className={selector===5?"selected":"unselected"}>We Analyze</h3>
-                <div className='hero-cta'>
+                <h3 className={selector===1?"selected":"unselected"}>We Measure</h3>
+                <h3 className={selector===2?"selected":"unselected"}>We Plan</h3>
+                <h3 className={selector===3?"selected":"unselected"}>We Map</h3>
+                <h3 className={selector===4?"selected":"unselected"}>We Consult</h3>
+                <h3 className={selector===5?"selected":"unselected"}>Trust Us</h3>
+                <button className='hero-cta'>
                   <p>Why Us</p>
-                  <a href="#whyus"><div className='down-arrow-container'><ArrowDownwardIcon className='down-arrow'></ArrowDownwardIcon></div></a>
-                </div>
+                  <KeyboardArrowDownIcon className='hero-cta-down'></KeyboardArrowDownIcon>
+                </button>
             </div>
             </>
             :
@@ -50,15 +50,16 @@ const Hero = (props) => {
                 <div className='title-2-inverted'><h2>للخدمات و الاستشارات المساحية</h2></div>
             </div>
             <div className='hero-sub-inverted'>
-                <h3 className={selector===1?"selected":"unselected"}>نحن نستطلع</h3>
-                <h3 className={selector===2?"selected":"unselected"}>نحن نحلل</h3>
-                <h3 className={selector===3?"selected":"unselected"}>نحن نتميز</h3>
-                <h3 className={selector===4?"selected":"unselected"}>نحن نستطلع</h3>
-                <h3 className={selector===5?"selected":"unselected"}>نحن نحلل</h3>
-                <div className='hero-cta'>
-                  <p>لماذا نحن</p>
-                  <a href="#whyus"><div className='down-arrow-container'><ArrowDownwardIcon className='down-arrow'></ArrowDownwardIcon></div></a>
-                </div>
+                <h3 className={selector===1?"selected":"unselected"}>نحن نقيس</h3>
+                <h3 className={selector===2?"selected":"unselected"}>نحن نخطط</h3>
+                <h3 className={selector===3?"selected":"unselected"}>نحن نرسم</h3>
+                <h3 className={selector===4?"selected":"unselected"}>نحن نستشار</h3>
+                <h3 className={selector===5?"selected":"unselected"}>ثقوا بنا</h3>
+
+                <button className='hero-cta-inverted'>
+                <KeyboardArrowDownIcon className='hero-cta-down'></KeyboardArrowDownIcon>
+                    <p>لماذا نحن</p>
+                </button>
             </div>
             </>
             }
