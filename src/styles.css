@@ -32,6 +32,7 @@ body{
     padding: 0;
     user-select: none;
     box-sizing: border-box;
+    height: -webkit-fill-available;
     
 }
 .subheadline-wrapper{
