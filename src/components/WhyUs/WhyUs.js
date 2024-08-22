@@ -18,9 +18,9 @@ const WhyUs = (props) => {
         </>
         :
         <>
-        <WhyUsCol  icon={<PsychologyIcon className='why-icon'></PsychologyIcon>} title="فريق متخصص" desc="مساحون معتمدون وذوو خبرة يكرسون أنفسهم للجودة والدقة"></WhyUsCol>
-        <WhyUsCol icon={<PhotoCameraIcon className='why-icon'></PhotoCameraIcon>} title="تكنولجيا متقدمة" desc="معدات حديثة للحصول على نتائج دقيقة"></WhyUsCol>
-        <WhyUsCol icon={<AccessAlarmIcon className='why-icon'></AccessAlarmIcon>} title="تسليم في الوقت المناسب" desc="أوقات تسليم سريعة لتلبية مواعيد المشاريع الخاصة بك."></WhyUsCol>
+        <WhyUsCol  icon={<PsychologyIcon className='why-icon'></PsychologyIcon>} title="فريق محترف" desc="مساحون معتمدون يتمتعون بخبرة كبيرة ويضمنون جودة ودقة العمل"></WhyUsCol>
+        <WhyUsCol icon={<PhotoCameraIcon className='why-icon'></PhotoCameraIcon>} title="تكنولوجيا متطورة" desc="استخدام معدات حديثة للحصول على نتائج دقيقة"></WhyUsCol>
+        <WhyUsCol icon={<AccessAlarmIcon className='why-icon'></AccessAlarmIcon>} title="التسليم في الوقت المناسب" desc="تقديم نتائج سريعة لتلبية مواعيد المشاريع"></WhyUsCol>
         <WhyUsCol icon={<SummarizeIcon className='why-icon'></SummarizeIcon>} title="تقارير شاملة" desc="تقارير مسح مفصلة وسهلة الفهم"></WhyUsCol>
         </>
         }

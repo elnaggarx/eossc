@@ -29,13 +29,11 @@ const Services = (props) => {
             </>
             :
             <>
-            <Card reversed={true} icon={<ImageIcon className='engineering-icon'></ImageIcon>} title="مسوحات الاراضي" desc="تقييمات شاملة للأراضي لأغراض التطوير والقانونية"></Card>
-            <Card reversed={true} icon={<CorporateFareIcon className='engineering-icon'></CorporateFareIcon>} title="مسوحات الممتلكات" desc="مسوحات دقيقة لحدود العقارات وتخطيط التقسيم"></Card>
+            <Card reversed={true} icon={<ImageIcon className='engineering-icon'></ImageIcon>} title="مسوحات الاراضي" desc="تقييم شامل للأراضي لأغراض التطوير والتقارير القانونية"></Card>
+            <Card reversed={true} icon={<CorporateFareIcon className='engineering-icon'></CorporateFareIcon>} title="مسوحات العقارات" desc="مسوحات دقيقة لحدود العقارات وتخطيط التقسيم"></Card>
             <Card reversed={true} icon={<FoundationIcon className='engineering-icon'></FoundationIcon>} title="مسوحات البناء" desc="تخطيط ومراقبة دقيقة لمواقع المشاريع الإنشائية"></Card>
-
-    
-            <Card reversed={true} icon={<LandscapeIcon className='engineering-icon'></LandscapeIcon>} title="المسوحات الطبوغرافية" desc="رسم وتحليل تضاريس وميزات الأرض"></Card>
-            <Card reversed={true} icon={<AddHomeWorkIcon className='engineering-icon'></AddHomeWorkIcon>} title="مسوحات المرافق" desc="تحديد وتحديد مواقع المرافق تحت الأرض"></Card>
+            <Card reversed={true} icon={<LandscapeIcon className='engineering-icon'></LandscapeIcon>} title="المسوحات الطبوغرافية" desc="رسم وتحليل التضاريس وميزات الأرض"></Card>
+            <Card reversed={true} icon={<AddHomeWorkIcon className='engineering-icon'></AddHomeWorkIcon>} title="مسوحات المرافق" desc="تحديد مواقع المرافق تحت الأرض بدقة."></Card>
             <a href="#contact" className="services-cta-link">
             <div className="services-cta-reversed">
                 <ChevronLeftIcon></ChevronLeftIcon>
