@@ -12,14 +12,17 @@
 }
 .form-container{
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
     width: 60%;
     justify-content: space-around;
     row-gap: 1rem;
-    grid-template-areas: "name name" "email email" "phone subject" "message message" "button button";
+    grid-template-areas: "name name" "email email" "phone phone" "message message" "button button";
 
 
+}
+.arabic{
+    text-align: right;
 }
 .fullname{
     grid-area: name;

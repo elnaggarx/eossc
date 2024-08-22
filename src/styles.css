@@ -23,7 +23,10 @@
     src: url(assets/font/CooperHewitt-Semibold.otf);
 }
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+html{
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
 body{
     margin: 0;
     padding: 0;

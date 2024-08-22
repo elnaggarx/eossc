@@ -65,7 +65,7 @@ const Footer = (props) => {
                             </>
                             :
                             <>
-                            <p className='email-header'>Contact us at</p>
+                            <p className='email-header'>تواصل معنا عن طريق</p>
                             <p>[Email Address]</p>
                             </>
 

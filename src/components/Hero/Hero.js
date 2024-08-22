@@ -37,10 +37,12 @@ const Hero = (props) => {
                 <h3 className={selector===3?"selected":"unselected"}>We Map</h3>
                 <h3 className={selector===4?"selected":"unselected"}>We Consult</h3>
                 <h3 className={selector===5?"selected":"unselected"}>Trust Us</h3>
+                <a href="#whyus" className='hero-cta-link'>
                 <button className='hero-cta'>
                   <p>Why Us</p>
                   <KeyboardArrowDownIcon className='hero-cta-down'></KeyboardArrowDownIcon>
                 </button>
+                </a>
             </div>
             </>
             :
@@ -55,11 +57,12 @@ const Hero = (props) => {
                 <h3 className={selector===3?"selected":"unselected"}>نحن نرسم</h3>
                 <h3 className={selector===4?"selected":"unselected"}>نحن نستشار</h3>
                 <h3 className={selector===5?"selected":"unselected"}>ثقوا بنا</h3>
-
+                <a href="#whyus" className='hero-cta-link'>
                 <button className='hero-cta-inverted'>
                 <KeyboardArrowDownIcon className='hero-cta-down'></KeyboardArrowDownIcon>
                     <p>لماذا نحن</p>
                 </button>
+                </a>
             </div>
             </>
             }
