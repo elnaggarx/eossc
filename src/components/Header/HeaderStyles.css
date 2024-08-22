@@ -65,7 +65,7 @@ nav{
         display: flex;
         justify-content: center;
         position: absolute;
-        top:12svh;
+        top:8vh;
         left: 0;
         left: 50%;
         transform: translate(-50%);

@@ -328,16 +328,6 @@
     .hero-title-inverted h1{
         font-size: 1.7rem;
     }
-    .hero-image{
-        width: 95vw;
-        height: 90svh;
-        object-fit: cover;
-        object-position: bottom right;
-        border-radius: 35px;
-        transform: scale(-1,1);
-    
-    
-    }
     .hero-cta{
         width: 35%;
     }
