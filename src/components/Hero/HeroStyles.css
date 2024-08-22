@@ -343,7 +343,7 @@
     }
     .hero-image-inverted{
         width: 95vw;
-        height: 90svh;
+        height: 90vh;
         object-fit: cover;
         object-position: bottom right;
     }
