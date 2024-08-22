@@ -239,7 +239,7 @@
     border: none;
     border-radius: 5px;
     width: 70%;
-    padding-left: 0.6rem;
+    padding-right: 0.6rem;
     height: 2.2rem;
     margin-left: 3rem;
 }
@@ -338,12 +338,20 @@
     
     
     }
+    .hero-inner-container{
+        position: absolute;
+        top:50svh;
+        left: 50%;
+        transform: translate(-50%,-50svh);
+        height: fit-content;
+        width: fit-content;
+    }
     .hero-cta{
         width: 35%;
     }
     .hero-image-inverted{
         width: 95vw;
-        height: 90vh;
+        height: 90svh;
         object-fit: cover;
         object-position: bottom right;
     }
@@ -356,18 +364,27 @@
         font-family: cooper-medium;
         font-size: 1.3rem;
         line-height: 0.8rem;
+
         
     }
     .hero-sub-inverted{
         text-align: right;
         position: absolute;
-        left:60%;
+        right:5%;
         top:50%;
         transform: translate(0,-50%);
         color: rgba(215,215,215,0.7);
         font-family: cooper-light;
         font-size: 1.3rem;
         line-height: 0.8rem;
+        background-color: red;
+        
+    }
+    .hero-cta-inverted{
+        margin-left: 0;
+        width: 35%;
+        float: right;
+
     }
     .down-arrow-container{
         display: inline;
