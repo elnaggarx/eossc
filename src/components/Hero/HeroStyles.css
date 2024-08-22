@@ -338,14 +338,6 @@
     
     
     }
-    .hero-inner-container{
-        position: absolute;
-        top:50svh;
-        left: 50%;
-        transform: translate(-50%,-50svh);
-        height: fit-content;
-        width: fit-content;
-    }
     .hero-cta{
         width: 35%;
     }
@@ -377,7 +369,6 @@
         font-family: cooper-light;
         font-size: 1.3rem;
         line-height: 0.8rem;
-        background-color: red;
         
     }
     .hero-cta-inverted{
