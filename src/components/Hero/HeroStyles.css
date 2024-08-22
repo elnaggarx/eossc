@@ -325,6 +325,14 @@
     .title-2-inverted h2{
         font-size: 1.4rem;
     }
+    .hero-inner-container{
+        position: absolute;
+        top:50svh;
+        left: 50%;
+        transform: translate(-50%,-50svh);
+        height: fit-content;
+        width: fit-content;
+    }
     .hero-title h1{
         font-size: 1.4rem;
         font-family: cooper-semi;
