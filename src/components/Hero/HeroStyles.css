@@ -335,7 +335,7 @@
     }
     .hero-image{
         width: 95vw;
-        height: 90vh;
+        height: 90svh;
         object-fit: cover;
         object-position: bottom right;
         border-radius: 35px;
@@ -349,7 +349,7 @@
     }
     .hero-image-inverted{
         width: 95vw;
-        height: 90vh;
+        height: 90svh;
         object-fit: cover;
         object-position: bottom right;
         
