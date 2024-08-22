@@ -166,11 +166,13 @@
     font-size: 2.4rem;
     color: #969696;
     font-family: cooper-semi;
+    z-index: 100;
 }
 .title-2-inverted h2{
     font-size: 2.4rem;
     color: #969696;
     font-family: cooper-semi;
+    z-index: 100;
 }
 
 .hero-title h1{

@@ -17,12 +17,6 @@ function App() {
   const handleSetEnglish = ()=>{
     setEnglish(!english);
   }
-  const setHeight=()=>{
-      const currentHeight = window.innerHeight;
-      document.body.style.height= `${currentHeight}px`
-  };
-  window.addEventListener("resize",setHeight);
-  setHeight();
   return (
     < div className="App">
         <Header menuClicked={menuClicked} handleMenuClicked={handleMenuClicked} english={english} handleSetEnglish={handleSetEnglish}></Header>
