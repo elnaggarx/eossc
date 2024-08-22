@@ -335,8 +335,7 @@
         object-position: bottom right;
         border-radius: 35px;
         transform: scale(-1,1);
-        height: -webkit-fill-available;
-
+    
     
     }
     .hero-cta{
@@ -347,8 +346,7 @@
         height: 90vh;
         object-fit: cover;
         object-position: bottom right;
-        height: -webkit-fill-available;
-
+        
     }
     .hero-sub{
         position: absolute;
