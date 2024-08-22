@@ -166,13 +166,11 @@
     font-size: 2.4rem;
     color: #969696;
     font-family: cooper-semi;
-    z-index: 100;
 }
 .title-2-inverted h2{
     font-size: 2.4rem;
     color: #969696;
     font-family: cooper-semi;
-    z-index: 100;
 }
 
 .hero-title h1{
@@ -325,14 +323,6 @@
     .title-2-inverted h2{
         font-size: 1.4rem;
     }
-    .hero-inner-container{
-        position: absolute;
-        top:50svh;
-        left: 50%;
-        transform: translate(-50%,-50svh);
-        height: fit-content;
-        width: fit-content;
-    }
     .hero-title h1{
         font-size: 1.4rem;
         font-family: cooper-semi;
@@ -343,7 +333,7 @@
     }
     .hero-image{
         width: 95vw;
-        height: 90svh;
+        height: 90vh;
         object-fit: cover;
         object-position: bottom right;
         border-radius: 35px;
@@ -357,7 +347,7 @@
     }
     .hero-image-inverted{
         width: 95vw;
-        height: 90svh;
+        height: 90vh;
         object-fit: cover;
         object-position: bottom right;
         
