@@ -12,5 +12,6 @@
 @media(max-width:768px){
     .intro span{
         text-align: center;
+        font-size: 1.8rem;
     }
 }
