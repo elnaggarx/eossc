@@ -8,7 +8,7 @@ const Intro = (props) => {
 
 
     return (
-    <div className='intro'>
+    <div className={props.english?"intro":"intro align-right"}>
         {props.english && array.map((text,i)=><motion.span initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true}} transition={{delay:i*0.1}}>{text} </motion.span>)}
         {!props.english && arabicArray.map((text,i)=><motion.span initial={{opacity:0}} className='align-right' whileInView={{opacity:1}} viewport={{once:true}} transition={{delay:i*0.1}}>{text} </motion.span>)}
     </div>

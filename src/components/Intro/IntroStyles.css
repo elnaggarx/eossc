@@ -5,13 +5,18 @@
     font-family: cooper-book;
     font-size: 2.3rem;
     color: #646464;
+    
 }
 .align-right{
-    text-align: right !important;
+    text-align: right;
 }
+
+
 @media(max-width:768px){
     .intro span{
-        text-align: center;
         font-size: 1.8rem;
+    }
+    .align-right{
+        text-align: right;
     }
 }
