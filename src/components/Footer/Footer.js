@@ -30,8 +30,7 @@ const Footer = (props) => {
             </div>
             <div className='footer-flex-12'>
                 <ul>
-                    <li><a href="#facebook"><FacebookIcon></FacebookIcon></a></li>
-                    <li><a href="#instagram"><InstagramIcon></InstagramIcon></a></li>
+                    <li><a href="https://www.facebook.com/share/1De86tocSCnebe5n/?mibextid=kFxxJD"><FacebookIcon></FacebookIcon></a></li>
                     <li><a href="#linkedin"><LinkedInIcon></LinkedInIcon></a></li>
                 </ul>
 
@@ -61,12 +60,12 @@ const Footer = (props) => {
                             {props.english ?
                             <>
                             <p className='email-header'>Contact us at</p>
-                            <p>[Email Address]</p>
+                            <p>eossc.eg@gmail.com</p>
                             </>
                             :
                             <>
                             <p className='email-header'>تواصل معنا عن طريق</p>
-                            <p>[Email Address]</p>
+                            <p>eossc.eg@gmail.com</p>
                             </>
 
                             }
